@@ -1,0 +1,121 @@
+/* Estilos específicos para a página de contatos */
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #000;
+    color: #eee;
+    font-family: Poppins;
+    font-size: 12px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos do cabeçalho */
+header {
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+header a{
+    color: #e9e503;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 17px;
+}
+header a:hover{
+    color: #f1683a;
+}
+/* Estilos do formulário de contatos */
+.contacts {
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contacts h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #eee;
+}
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+img{
+    width: 40%;
+    height: 40%;
+    border-radius: 5%;
+}
+
+.contact {
+    width: 50%;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contact h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #eeeeee;
+    font-size: 24px;
+}
+a{
+    color: #eeeeee;
+    text-decoration: none;
+}  
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+#git, #link {
+    width: 40px;
+    height: auto;
+    margin: 0 10px; /* Adiciona margem entre os ícones */
+}
+#git{
+    background-color: #eee;
+    border-radius: 9px;
+}
+.help_video {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Definindo a largura da div */
+    justify-content: flex-end; /* Alinhando os elementos à direita */
+    border-radius: 5px; /* Adicionando borda arredondada */
+    gap: 10px; /* Adicionando espaçamento entre os elementos */
+}
+
+
+.help_video img {
+    width: 40px; /* Definindo a largura da imagem */
+    height:auto;
+    border-radius: 10px; /* Adicionando borda arredondada */
+    background-color: #eee;
+}
+
