@@ -61,9 +61,19 @@ document.getElementById('img2').addEventListener('click', function() {
 document.getElementById('img3').addEventListener('click', function() {
     redirect('img3');
 });
+document.getElementById('imgx').addEventListener('click', function() {
+    redirect('imgx');
+});
 document.getElementById('img4').addEventListener('click', function() {
     redirect('img4');
 });
+document.getElementById('img5').addEventListener('click', function() {
+    redirect('img5');
+});
+document.getElementById('img6').addEventListener('click', function() {
+    redirect('img6');
+});
+
 
 
 function redirect(id) {
@@ -79,8 +89,17 @@ function redirect(id) {
         case 'img3':
             url = 'https://dionizioo.github.io/MovieApis/';
             break;
-        case 'img4':
+        case 'imgx':
             url = 'https://github.com/Dionizioo/';
+            break;
+        case 'img4':
+            url = 'https://github.com/Dionizioo/Movie_Project';
+            break;
+        case 'img5':
+            url = 'https://github.com/Dionizioo/Projects_React/tree/main/Party_Time';
+            break;
+        case 'img6':
+            url = 'https://github.com/Dionizioo/Quiz-React-';
             break;
         default:
             break;
