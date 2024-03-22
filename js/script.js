@@ -73,6 +73,9 @@ document.getElementById('img5').addEventListener('click', function() {
 document.getElementById('img6').addEventListener('click', function() {
     redirect('img6');
 });
+document.getElementById('img7').addEventListener('click', function() {
+    redirect('img7');
+});
 
 
 
@@ -101,6 +104,9 @@ function redirect(id) {
         case 'img6':
             url = 'https://github.com/Dionizioo/Quiz-React-';
             break;
+        case 'img7':
+            url = 'https://github.com/Dionizioo/Projects_React/tree/main/Memories';
+            break;    
         default:
             break;
     }
